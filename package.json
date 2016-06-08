@@ -51,7 +51,18 @@
     "webpack-hot-middleware": "^2.9.1"
   },
   "dependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "highcharts": "^4.2.5",
+    "isomorphic-fetch": "^2.2.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "materialize-css": "^0.97.6",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-highcharts": "^8.3.2",
+    "react-loading": "0.0.9",
+    "style-loader": "^0.13.1",
+    "superagent": "^1.8.3"
   }
 }

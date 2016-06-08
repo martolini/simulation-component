@@ -8,7 +8,7 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'betsize-simulation.js',
     publicPath: '/static/'
   },
   plugins: [
@@ -28,6 +28,11 @@ module.exports = {
     loaders: [{
       test: /\.js$/,
       loaders: ['babel'],
+      include: path.join(__dirname, 'src')
+    },
+    {
+      test: /\.less$/,
+      loader: 'style!css!less',
       include: path.join(__dirname, 'src')
     }]
   }
